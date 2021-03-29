@@ -33,8 +33,6 @@ function add_volumetric_weight( $cart ) {
       }
 
       $cart_item['data']->set_weight( $final_weight );
-
-      //var_dump(  $cart_item['data']->get_weight() );
   }
 
   // Make sure to update the order review
